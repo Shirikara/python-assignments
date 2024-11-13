@@ -5,13 +5,15 @@
 - Led by [Gábor Szabó](https://szabgab.com/)
 - Direct link to course information
 
- 
+ --- 
+
 # Course objectives:
 To be able to write programs in Python.
 To master the rich set of Python libraries and modules.
 Understand procedural control flow in Python
 Use Object Oriented programming techniques
 
+--- 
 # _Syllabus_
 
 ·  Introduction to Computers and Programming
@@ -131,6 +133,8 @@ Extra topics:
 Version control with Git.
 General differences/attributes of other programming languages.
 Basic complexity calculation.
+
+--- 
 
 # Learning Outcomes
 Upon successful completion of this course students should be able to:
