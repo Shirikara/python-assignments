@@ -131,7 +131,7 @@ Extra topics:
 Version control with Git.
 General differences/attributes of other programming languages.
 Basic complexity calculation.
----
+
 # Learning Outcomes
 Upon successful completion of this course students should be able to:
 
