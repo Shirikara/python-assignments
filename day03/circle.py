@@ -1,6 +1,6 @@
 # ----- This program prints out the area and the circumference of the circle in an interactive way with the user -----#
 
-# Libraries
+# Load Libraries
 import argparse
 from math import pi
 
