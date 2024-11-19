@@ -39,3 +39,18 @@ except ValueError as e:
 except Exception as e:
     # Handle any unexpected errors
     print(f"\nAn unexpected error occurred: {e}")
+
+### How to run the program in the terminal? ###
+# Example
+# Input: 
+# python .\circle.py --radius 2.5
+# 
+# Output: 
+# Welcome to the Circle Program!
+# This program calculates the area and circumference of a circle based on the radius you provide.
+
+
+# Results:
+# The radius you entered is: 2.50 cm
+# The area of the circle is: 19.63 cm²
+# The circumference of the circle is: 15.71 cm
