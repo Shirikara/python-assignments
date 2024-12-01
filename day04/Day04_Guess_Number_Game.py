@@ -21,9 +21,9 @@ def guess_number_game():
         print("\nI am thinking of a number between 1 and 20. Can you guess what it is?")
         print("Enter 'x' to exit the program, 'n' to start a new game, or 's' to show the hidden number.")
 
-        while keep_playing:
+        while keep_playing: #This loop continues until the current game ends (keep_playing = False).
             user_input = input("Your guess: ")
-
+            # Special Commands
             if user_input.lower() == 'x':
                 print("Thanks for playing with me. Goodbye!")
                 return
@@ -31,14 +31,15 @@ def guess_number_game():
                 print("Starting a new game!")
                 keep_playing = False
             elif user_input.lower() == 's':
-                print(f"You are cheating! The hidden number is {comp_int_1to20}")
+                print(f"Hey, you are cheating! The hidden number is {comp_int_1to20}")
             else:
                 try:
-                    guess_by_user = int(user_input)
+                    guess_by_user = int(user_input) # If the input is not a command (x, n, s), the program attempts to convert it to an integer
                     num_try += 1
-
+                    
+                    #Feedback to the user's guess
                     if guess_by_user == comp_int_1to20:
-                        print(f"Yay! You guessed correctly in {num_try} tries. You read my thoughta and won the game!")
+                        print(f"Yay! You guessed correctly in {num_try} tries. You read my thoughts and won the game!")
                         keep_playing = False
                     elif guess_by_user < 0:
                         print("Only positive values are accepted. Please try again")
@@ -58,7 +59,7 @@ def guess_number_game():
             play_again_input = input("Would you like to play again? (yes/no): ").strip().lower()
             if play_again_input not in ['yes', 'y']:
                 play_again = False
-
+    #Exit the Game
     print(f"Thanks for playing! You played {total_num_games} games. Have a nice day :)")
 
 #Initialize the game by running the function
