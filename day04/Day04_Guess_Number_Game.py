@@ -1,4 +1,4 @@
-# ------------------- This is a guessing a number user interactive game ------------------- #
+# ------------------- This is a guessing a number user interactive game (full code) ------------------- #
 
 # Import Libraries
 import numpy as np
