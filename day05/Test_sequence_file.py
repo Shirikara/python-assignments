@@ -33,3 +33,5 @@ def test_find_mode_fake():
     fake_mode = find_mode(fake_counts)
     expected_fake_mode = ['A']  # Update based on actual mode
     assert fake_mode == expected_fake_mode, f"Expected {expected_fake_mode}, but got {fake_mode}"
+
+    #To run the test file typr in the terminal: pytest -s Test_sequence_file.py
