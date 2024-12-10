@@ -50,10 +50,10 @@ if __name__ == "__main__":
     os.chdir(folder_path)
 
 # Read the BRCA1 prtein sequence file
-#brca1_seq = pd.read_csv("BRCA1_protein_sequence.txt",header= 0) # correct sequence test PASS
+brca1_seq = pd.read_csv("BRCA1_protein_sequence.txt",header= 0) # correct sequence test PASS
 #IMPORTANT!!!! 
 # Remove the comment in the line below if you want to fail the test: 
-brca1_seq = pd.read_csv("BRCA1_protein_sequence_fake.txt",header= 0) # wrong sequence to make the test FAIL
+#brca1_seq = pd.read_csv("BRCA1_protein_sequence_fake.txt",header= 0) # wrong sequence to make the test FAIL
 
 print(brca1_seq.head())
 type(brca1_seq)
