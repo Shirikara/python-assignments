@@ -1,5 +1,5 @@
 # This code generates a web app to calculate the area and circumference of circle and rectangle using Flask 
-
+# Note: this is based on the code of Day02 in this Python course
 from flask import Flask, request, render_template_string
 import math
 
