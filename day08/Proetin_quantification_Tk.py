@@ -1,3 +1,10 @@
+'''
+ This code predicts the protein concentration given 
+a spectrophotometer readouts in Fluorescamine Assay using tkinter (Tk) GUI
+
+Note: this code is based on the assignment in Day03 in this Python course
+'''
+
 import tkinter as tk
 from tkinter import messagebox
 import matplotlib.pyplot as plt
