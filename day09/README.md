@@ -3,15 +3,17 @@ There are two programs that analyze FASTA files and find the longest repeated su
 
 * **analyze_simple.py** requires the path to a file in Fasta or GeneBank format of a file that is physically saved on your PC.
   For example: MIF_FASTA.txt uploaded in this folder.
-* **analyze.py** is more sophisticated since it is user-interactive and enables NCBI search, including the new feature called tandem repeats (explained below)
+* **analyze.py** is more sophisticated. It is:
+  1. User-interactive
+  2. Enables NCBI search
+  3. Include the new feature called tandem repeats (explained below)
 
-This program allows you to fetch a gene sequence from NCBI, find the longest repeated subsequence, and search for tandem repeats within the gene sequence. 
-The program integrates with NCBI's Entrez system to fetch sequences based on a gene name or accession number.
+## About analyze.py
+This program allows you to fetch a gene sequence from NCBI, find the longest repeated subsequence, and search for tandem repeats within the gene sequence. The program integrates with NCBI's Entrez system to fetch sequences based on a gene name or accession number.
 
-## Features (analyze.py)
-
+## Features 
 - Fetches gene sequences from NCBI using the `gene_name` or `accession number`.
-- Identifies the longest repeated subsequence within the sequence.
+- Identifies the longest repeated subsequence within the sequence that appears twice.
 - Finds and prints tandem repeats of the gene sequence (optional).
 - Fully customizable with email address required for NCBI compliance.
 
@@ -38,4 +40,9 @@ pip install biopython
 How to Run the Program
 Clone the repository or download the analyze.py file.
 Open a terminal window and navigate to the directory where the file is saved.
+
 Run the following command:
+python analyze.py
+
+## Example
+
